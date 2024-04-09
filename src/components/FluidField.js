@@ -1,7 +1,7 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {useFrame, useThree} from "@react-three/fiber";
-import face_vert from "./glsl/sim/face.vert";
-import color_frag from "./glsl/sim/color.frag";
+import face_vert from "./glsl/face.vert";
+import color_frag from "./glsl/color.frag";
 
 import Simulation from "./modules/Simulation";
 import * as THREE from "three";

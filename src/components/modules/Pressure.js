@@ -1,5 +1,5 @@
-import face_vert from "../glsl/sim/face.vert.js";
-import pressure_frag from "../glsl/sim/pressure.frag.js";
+import face_vert from "../glsl/face.vert.js";
+import pressure_frag from "../glsl/pressure.frag.js";
 import ShaderPass from "./ShaderPass";
 
 export default class Divergence extends ShaderPass{

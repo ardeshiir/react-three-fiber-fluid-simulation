@@ -1,5 +1,5 @@
-import face_vert from "../glsl/sim/face.vert.js";
-import divergence_frag from "../glsl/sim/divergence.frag.js";
+import face_vert from "../glsl/face.vert.js";
+import divergence_frag from "../glsl/divergence.frag.js";
 
 import ShaderPass from "./ShaderPass";
 

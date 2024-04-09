@@ -1,7 +1,7 @@
-import face_vert from "../glsl/sim/face.vert.js";
-import line_vert from "../glsl/sim/line.vert.js";
+import face_vert from "../glsl/face.vert.js";
+import line_vert from "../glsl/line.vert.js";
 
-import advection_frag from "../glsl/sim/advection.frag.js";
+import advection_frag from "../glsl/advection.frag.js";
 import ShaderPass from "./ShaderPass";
 
 import * as THREE from "three";

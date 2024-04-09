@@ -1,8 +1,6 @@
-import face_vert from "../glsl/sim/face.vert.js";
-import viscous_frag from "../glsl/sim/viscous.frag.js";
-
+import face_vert from "../glsl/face.vert.js";
+import viscous_frag from "../glsl/viscous.frag.js";
 import ShaderPass from "./ShaderPass";
-import * as THREE from "three";
 
 export default class Viscous extends ShaderPass{
     constructor(simProps,rootState){

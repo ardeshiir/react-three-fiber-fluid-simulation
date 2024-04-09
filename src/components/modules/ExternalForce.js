@@ -1,5 +1,5 @@
-import mouse_vert from "../glsl/sim/mouse.vert.js";
-import externalForce_frag from "../glsl/sim/externalForce.frag.js";
+import mouse_vert from "../glsl/mouse.vert.js";
+import externalForce_frag from "../glsl/externalForce.frag.js";
 import ShaderPass from "./ShaderPass";
 import Mouse from "./Mouse";
 

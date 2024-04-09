@@ -1,5 +1,5 @@
-import face_vert from "../glsl/sim/face.vert.js";
-import poisson_frag from "../glsl/sim/poisson.frag.js";
+import face_vert from "../glsl/face.vert.js";
+import poisson_frag from "../glsl/poisson.frag.js";
 
 import ShaderPass from "./ShaderPass";
 

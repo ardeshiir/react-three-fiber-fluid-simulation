@@ -7,8 +7,8 @@ void main(){
     float len = length(vel);
     vel = vel * 0.5 + 0.5;
     
-    vec3 color = vec3(vel.x, vel.y, 1.0);
-    color = mix(vec3(1.0), color, len);
+    vec3 color = vec3(vel.x+0.5, vel.y + 0.15,(vel.y*vel.x + 0.8));
+    color = mix(vec3(0.0), color, len);
 
     gl_FragColor = vec4(color,  1.0);
 }

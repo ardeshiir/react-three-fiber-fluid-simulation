@@ -18,6 +18,6 @@ void main(){
     vec2 new = 4.0 * old + v * dt * (new0 + new1 + new2 + new3);
     new /= 4.0 * (1.0 + v * dt);
     
-    gl_FragColor = vec4(new, 0.0, 0.0);
+    gl_FragColor = vec4(new, 0.0, 1.0,0.0);
 }
 `
